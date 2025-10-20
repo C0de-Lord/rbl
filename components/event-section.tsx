@@ -60,7 +60,7 @@ export function EventSection() {
                   <Trophy className="w-8 h-8 text-primary" />
                 </div>
                 <div>
-                  <div className="text-sm text-primary font-semibold mb-1">DECEMBER 28, 2024</div>
+                  <div className="text-sm text-primary font-semibold mb-1">DECEMBER 28, 2025</div>
                   <h3 className="text-2xl font-bold mb-2">Grand Tournament</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     The ultimate CODM tournament is here! Compete with the best teams, showcase your skills, and claim
@@ -72,7 +72,7 @@ export function EventSection() {
                 <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                   CODM Tournament
                 </span>
-                <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">Big Prizes</span>
+                <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">₦1,000,000 Prize Pool</span>
                 <span className="px-3 py-1 bg-muted text-foreground rounded-full text-sm font-medium flex items-center gap-1">
                   <Lock className="w-3 h-3" />
                   Opens December

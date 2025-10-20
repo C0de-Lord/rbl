@@ -35,14 +35,14 @@ export default function GrandTournamentPage() {
                 <div className="flex-1">
                   <div className="text-sm font-bold text-primary mb-2 tracking-wider">CALL OF DUTY MOBILE</div>
                   <h1 className="text-5xl lg:text-7xl font-black mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                    GRAND TOURNAMENT 2024
+                    GRAND TOURNAMENT 2025
                   </h1>
                   <div className="flex flex-wrap gap-4 mb-6">
                     <div className="flex items-center gap-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-border">
                       <Calendar className="w-5 h-5 text-primary" />
                       <div>
                         <div className="text-xs text-muted-foreground">Date</div>
-                        <div className="font-bold">December 28, 2024</div>
+                        <div className="font-bold">December 28, 2025</div>
                       </div>
                     </div>
                     <div className="flex items-center gap-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-border">
@@ -56,7 +56,7 @@ export default function GrandTournamentPage() {
                       <Trophy className="w-5 h-5 text-primary" />
                       <div>
                         <div className="text-xs text-muted-foreground">Prize Pool</div>
-                        <div className="font-bold text-primary">TBA</div>
+                        <div className="font-bold text-primary">₦1,000,000</div>
                       </div>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export default function GrandTournamentPage() {
                     </Badge>
                   </div>
                 </div>
-                <div className="lg:text-right">
+                <div className="lg:text-right flex flex-col items-center lg:items-end">
                   <div className="text-sm text-muted-foreground mb-2">Registration opens in</div>
                   <div className="flex gap-4 mb-6">
                     <div className="text-center">
