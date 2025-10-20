@@ -58,7 +58,7 @@ export function HeroSection() {
           <div className="grid md:grid-cols-3 gap-4 max-w-3xl mx-auto mb-12">
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-4">
               <div className="text-sm text-muted-foreground mb-1">Tournament Status</div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center justify-center gap-2">
                 <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
                 <span className="font-bold text-accent">Active</span>
               </div>
@@ -66,14 +66,14 @@ export function HeroSection() {
 
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-4">
               <div className="text-sm text-muted-foreground mb-1">Next Event</div>
-              <div className="font-bold">December 28, 2024</div>
+              <div className="font-bold">Preshow</div>
             </div>
 
             <div className="bg-card/50 backdrop-blur-sm border border-border rounded-lg p-4">
               <div className="text-sm text-muted-foreground mb-1">Prize Pool</div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center justify-center gap-2">
                 <Trophy className="w-4 h-4 text-primary" />
-                <span className="font-bold text-primary">TBA</span>
+                <span className="font-bold text-primary">No Prizes</span>
               </div>
             </div>
           </div>
